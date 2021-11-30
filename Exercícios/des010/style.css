@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fonts/idroid.otf);
+}
+
+@font-face {
+    font-family: romantic;
+    src: url(fonts/Romabntico\ Kustomtype.otf);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #3CD681 20%, #195B38);
+    color: white;
+    margin: -22px -8px 0px -8px;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+main {
+    background-color: white;
+    margin: -30px auto 0px auto;
+    width: 1000px;
+}
+
+article > h1 {
+    color: #336E4E;
+    font-family: idroid;
+    font-size: 30px;
+    padding: 20px 0px 0px 10px;
+}
+
+article > h2 {
+    color: #336E4E;
+    font-family: idroid;
+    padding: 0px 5px 0px 5px;
+    margin: 10px;
+    background-image: linear-gradient(to right, #69dd9d, white);
+}
+
+article > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 20px;
+}
+
+p > a {
+    color: #195B38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div > a {
+    color: #195B38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.imagem {
+    text-align: center;
+}
+
+p > span {
+    color: #195B38;
+    font-weight: bold;
+}
+
+header > h1 {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 10px 5px 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article > iframe {
+    width: 800px;
+    height: 500px;
+    border: 100px solid #195B38;
+}
+
+div.lista {
+    background-color: #C5EBD6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    text-indent: 20px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 10px 10px;
+}
+
+div.lista > h1 {
+    background-color: #438f65;
+    margin: 0px 0px 0px 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: #13472cb4;
+    color: white;
+    margin: 10px -7px -10px -7px;
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #BECDDF, #223B59);
+}
+
+h1 {
+    text-align: center;
+}
